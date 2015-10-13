@@ -15,7 +15,7 @@
     <description>EZ Vertx-verticle 构建框架</description>
     <url>https://github.com/gudaoxuri/ez-vertx-verticle-parent</url>
     <packaging>pom</packaging>
-    <version>0.1.1</version>
+    <version>0.1.2</version>
 
     <licenses>
         <license>
@@ -42,7 +42,7 @@
     <properties>
         <main.verticle></main.verticle>
         <vertx.version>3.1.0</vertx.version>
-        <ez-common.version>0.5.3</ez-common.version>
+        <ez-common.version>0.5.4</ez-common.version>
     </properties>
 
     <dependencies>
