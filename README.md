@@ -7,7 +7,7 @@ EZ Vertx-verticle Parent
     <dependency>
         <groupId>com.ecfront</groupId>
         <artifactId>ez-vertx-verticle-parent</artifactId>
-        <version>0.1.0</version>
+        <version>0.1.3</version>
     </dependency>
 
 ### Check out sources
