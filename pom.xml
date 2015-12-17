@@ -15,7 +15,7 @@
     <description>EZ Vertx-verticle 构建框架</description>
     <url>https://github.com/gudaoxuri/ez-vertx-verticle-parent</url>
     <packaging>pom</packaging>
-    <version>0.1.8</version>
+    <version>0.1.9</version>
 
     <licenses>
         <license>
@@ -107,6 +107,9 @@
                         <exclude>**/**.properties</exclude>
                         <exclude>**/**.json</exclude>
                         <exclude>**/**.xml</exclude>
+                        <exclude>**/**.dat</exclude>
+                        <exclude>**/**.conf</exclude>
+                        <exclude>**/**.sql</exclude>
                     </excludes>
                 </configuration>
             </plugin>
