@@ -7,7 +7,7 @@
     <parent>
         <groupId>com.ecfront</groupId>
         <artifactId>ez-parent</artifactId>
-        <version>0.1.6</version>
+        <version>0.1.7</version>
     </parent>
 
     <artifactId>ez-vertx-verticle-parent</artifactId>
@@ -15,7 +15,7 @@
     <description>EZ Vertx-verticle 构建框架</description>
     <url>https://github.com/gudaoxuri/ez-vertx-verticle-parent</url>
     <packaging>pom</packaging>
-    <version>0.2.0</version>
+    <version>0.2.1</version>
 
     <licenses>
         <license>
@@ -41,7 +41,7 @@
 
     <properties>
         <main.verticle>com.ecfront.foo</main.verticle>
-        <vertx.version>3.2.0</vertx.version>
+        <vertx.version>3.2.1</vertx.version>
     </properties>
 
     <dependencies>
@@ -62,7 +62,7 @@
         </dependency>
         <dependency>
             <groupId>io.vertx</groupId>
-            <artifactId>vertx-hazelcast</artifactId>
+            <artifactId>vertx-codegen</artifactId>
             <version>${vertx.version}</version>
         </dependency>
     </dependencies>
